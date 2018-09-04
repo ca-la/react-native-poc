@@ -52,9 +52,6 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
 
@@ -87,13 +84,8 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
-# Gradle
-/build/
-/RNTester/android/app/build/
-/RNTester/android/app/gradle/
-/RNTester/android/app/gradlew
-/RNTester/android/app/gradlew.bat
-/ReactAndroid/build/
+# Build
+**/build
 
 # Watchman
 .watchmanconfig
@@ -103,13 +95,11 @@ project.xcworkspace
 .gradle
 local.properties
 *.iml
-/android/
 
 # Node
 node_modules
 *.log
 .nvm
-/bots/node_modules/
 
 # OS X
 .DS_Store
