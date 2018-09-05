@@ -69,10 +69,9 @@ const styles = StyleSheet.create({
   },
   buttons: {
     flexDirection: "row",
-    minHeight: 70,
     alignItems: "stretch",
     alignSelf: "center",
-    borderWidth: 5,
+    borderWidth: 1,
   },
   button: {
     flex: 1,
